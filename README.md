@@ -10,23 +10,23 @@ For example, when given the sound clip "Sosumi.aiff", the minimum interval 00:00
 ##Credits##
 Concept:
 
-> Patrick Kelley
+- Patrick Kelley
 
 Engineering:
 
-> Patrick Perini
-> Jim Cervone
+- Patrick Perini
+- Jim Cervone
 
 Human Interface Design:
 
-> Patrick Perini
-> Jim Cervone
-> Patrick Kelley
+- Patrick Perini
+- Jim Cervone
+- Patrick Kelley
 
 Graphic Design:
 
-> Ben Sanders
-> Patrick Perini
+- Ben Sanders
+- Patrick Perini
 
 ##License##
 Inspyre Technologies reserves all rights regarding the ScatterSound project as it stands, including the right to change this document from time to time.
