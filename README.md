@@ -1,6 +1,6 @@
 #ScatterSound#
 
-<img src="http://i.imgur.com/YiLE7.png"/>
+<img src="http://i.imgur.com/XMlXg.png"/> <img src="http://i.imgur.com/YiLE7.png"/>
 
 
 ##Overview##
