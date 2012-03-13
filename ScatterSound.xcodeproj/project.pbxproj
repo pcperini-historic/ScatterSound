@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73516F9915094D3E004F1381 /* dropzone.png in Resources */ = {isa = PBXBuildFile; fileRef = 73516F9815094D3E004F1381 /* dropzone.png */; };
+		73516F9E15094DAE004F1381 /* pause-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 73516F9A15094DAE004F1381 /* pause-pressed.png */; };
+		73516F9F15094DAE004F1381 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 73516F9B15094DAE004F1381 /* pause.png */; };
+		73516FA015094DAE004F1381 /* play-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 73516F9C15094DAE004F1381 /* play-pressed.png */; };
+		73516FA115094DAE004F1381 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 73516F9D15094DAE004F1381 /* play.png */; };
+		73516FA415094FC9004F1381 /* ScatterSoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73516FA315094FC9004F1381 /* ScatterSoundController.m */; };
+		73516FA7150956BA004F1381 /* ITScatterSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 73516FA615095109004F1381 /* ITScatterSound.m */; };
+		736168CB150930B900C7A36F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736168CA150930B900C7A36F /* Cocoa.framework */; };
+		736168D5150930B900C7A36F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 736168D3150930B900C7A36F /* InfoPlist.strings */; };
+		736168D7150930B900C7A36F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 736168D6150930B900C7A36F /* main.m */; };
+		736168DE150930B900C7A36F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 736168DD150930B900C7A36F /* AppDelegate.m */; };
+		736168E1150930BA00C7A36F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 736168DF150930BA00C7A36F /* MainMenu.xib */; };
+		73B08555150EDABC00358CFA /* ScatterSound.icns in Resources */ = {isa = PBXBuildFile; fileRef = 73B08554150EDABC00358CFA /* ScatterSound.icns */; };
+		73FAAEBA150A6E6A00179D8C /* ITTimeIntervalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FAAEB9150A6E6A00179D8C /* ITTimeIntervalFormatter.m */; };
+		73FAAEBE150A771300179D8C /* ITFileWell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FAAEBD150A771300179D8C /* ITFileWell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73516F9815094D3E004F1381 /* dropzone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropzone.png; sourceTree = "<group>"; };
+		73516F9A15094DAE004F1381 /* pause-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-pressed.png"; sourceTree = "<group>"; };
+		73516F9B15094DAE004F1381 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		73516F9C15094DAE004F1381 /* play-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-pressed.png"; sourceTree = "<group>"; };
+		73516F9D15094DAE004F1381 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		73516FA215094FC9004F1381 /* ScatterSoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScatterSoundController.h; sourceTree = "<group>"; };
+		73516FA315094FC9004F1381 /* ScatterSoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScatterSoundController.m; sourceTree = "<group>"; };
+		73516FA515095109004F1381 /* ITScatterSound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITScatterSound.h; sourceTree = "<group>"; };
+		73516FA615095109004F1381 /* ITScatterSound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITScatterSound.m; sourceTree = "<group>"; };
+		736168C6150930B900C7A36F /* ScatterSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScatterSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		736168CA150930B900C7A36F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		736168CD150930B900C7A36F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		736168CE150930B900C7A36F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		736168CF150930B900C7A36F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		736168D2150930B900C7A36F /* ScatterSound-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScatterSound-Info.plist"; sourceTree = "<group>"; };
+		736168D4150930B900C7A36F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		736168D6150930B900C7A36F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		736168D8150930B900C7A36F /* ScatterSound-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScatterSound-Prefix.pch"; sourceTree = "<group>"; };
+		736168DC150930B900C7A36F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		736168DD150930B900C7A36F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		736168E0150930BA00C7A36F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		73B08554150EDABC00358CFA /* ScatterSound.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ScatterSound.icns; sourceTree = SOURCE_ROOT; };
+		73B08556150EDAD100358CFA /* ScatterSound.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ScatterSound.entitlements; sourceTree = "<group>"; };
+		73FAAEB8150A6E6A00179D8C /* ITTimeIntervalFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTimeIntervalFormatter.h; sourceTree = "<group>"; };
+		73FAAEB9150A6E6A00179D8C /* ITTimeIntervalFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTimeIntervalFormatter.m; sourceTree = "<group>"; };
+		73FAAEBC150A771300179D8C /* ITFileWell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITFileWell.h; sourceTree = "<group>"; };
+		73FAAEBD150A771300179D8C /* ITFileWell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITFileWell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		736168C3150930B900C7A36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736168CB150930B900C7A36F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		736168BB150930B900C7A36F = {
+			isa = PBXGroup;
+			children = (
+				736168D0150930B900C7A36F /* ScatterSound */,
+				736168C9150930B900C7A36F /* Frameworks */,
+				736168C7150930B900C7A36F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		736168C7150930B900C7A36F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				736168C6150930B900C7A36F /* ScatterSound.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		736168C9150930B900C7A36F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				736168CA150930B900C7A36F /* Cocoa.framework */,
+				736168CC150930B900C7A36F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		736168CC150930B900C7A36F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				736168CD150930B900C7A36F /* AppKit.framework */,
+				736168CE150930B900C7A36F /* CoreData.framework */,
+				736168CF150930B900C7A36F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		736168D0150930B900C7A36F /* ScatterSound */ = {
+			isa = PBXGroup;
+			children = (
+				73516FA515095109004F1381 /* ITScatterSound.h */,
+				73516FA615095109004F1381 /* ITScatterSound.m */,
+				736168DC150930B900C7A36F /* AppDelegate.h */,
+				736168DD150930B900C7A36F /* AppDelegate.m */,
+				73516FA215094FC9004F1381 /* ScatterSoundController.h */,
+				73516FA315094FC9004F1381 /* ScatterSoundController.m */,
+				736168DF150930BA00C7A36F /* MainMenu.xib */,
+				736168D1150930B900C7A36F /* Supporting Files */,
+			);
+			path = ScatterSound;
+			sourceTree = "<group>";
+		};
+		736168D1150930B900C7A36F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73B08556150EDAD100358CFA /* ScatterSound.entitlements */,
+				73FAAEBB150A6E6E00179D8C /* Source */,
+				73FAAEB6150A6E4900179D8C /* Images */,
+				736168D2150930B900C7A36F /* ScatterSound-Info.plist */,
+				736168D3150930B900C7A36F /* InfoPlist.strings */,
+				736168D6150930B900C7A36F /* main.m */,
+				736168D8150930B900C7A36F /* ScatterSound-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73FAAEB6150A6E4900179D8C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				73B08554150EDABC00358CFA /* ScatterSound.icns */,
+				73516F9815094D3E004F1381 /* dropzone.png */,
+				73516F9A15094DAE004F1381 /* pause-pressed.png */,
+				73516F9B15094DAE004F1381 /* pause.png */,
+				73516F9C15094DAE004F1381 /* play-pressed.png */,
+				73516F9D15094DAE004F1381 /* play.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		73FAAEBB150A6E6E00179D8C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				73FAAEB8150A6E6A00179D8C /* ITTimeIntervalFormatter.h */,
+				73FAAEB9150A6E6A00179D8C /* ITTimeIntervalFormatter.m */,
+				73FAAEBC150A771300179D8C /* ITFileWell.h */,
+				73FAAEBD150A771300179D8C /* ITFileWell.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		736168C5150930B900C7A36F /* ScatterSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736168E4150930BA00C7A36F /* Build configuration list for PBXNativeTarget "ScatterSound" */;
+			buildPhases = (
+				736168C2150930B900C7A36F /* Sources */,
+				736168C3150930B900C7A36F /* Frameworks */,
+				736168C4150930B900C7A36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScatterSound;
+			productName = ScatterSound;
+			productReference = 736168C6150930B900C7A36F /* ScatterSound.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		736168BD150930B900C7A36F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Inspyre Technologies";
+			};
+			buildConfigurationList = 736168C0150930B900C7A36F /* Build configuration list for PBXProject "ScatterSound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 736168BB150930B900C7A36F;
+			productRefGroup = 736168C7150930B900C7A36F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				736168C5150930B900C7A36F /* ScatterSound */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		736168C4150930B900C7A36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736168D5150930B900C7A36F /* InfoPlist.strings in Resources */,
+				736168E1150930BA00C7A36F /* MainMenu.xib in Resources */,
+				73516F9915094D3E004F1381 /* dropzone.png in Resources */,
+				73516F9E15094DAE004F1381 /* pause-pressed.png in Resources */,
+				73516F9F15094DAE004F1381 /* pause.png in Resources */,
+				73516FA015094DAE004F1381 /* play-pressed.png in Resources */,
+				73516FA115094DAE004F1381 /* play.png in Resources */,
+				73B08555150EDABC00358CFA /* ScatterSound.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		736168C2150930B900C7A36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73516FA7150956BA004F1381 /* ITScatterSound.m in Sources */,
+				736168D7150930B900C7A36F /* main.m in Sources */,
+				736168DE150930B900C7A36F /* AppDelegate.m in Sources */,
+				73516FA415094FC9004F1381 /* ScatterSoundController.m in Sources */,
+				73FAAEBA150A6E6A00179D8C /* ITTimeIntervalFormatter.m in Sources */,
+				73FAAEBE150A771300179D8C /* ITFileWell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		736168D3150930B900C7A36F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				736168D4150930B900C7A36F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		736168DF150930BA00C7A36F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				736168E0150930BA00C7A36F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		736168E2150930BA00C7A36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		736168E3150930BA00C7A36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		736168E5150930BA00C7A36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ScatterSound/ScatterSound.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScatterSound/ScatterSound-Prefix.pch";
+				INFOPLIST_FILE = "ScatterSound/ScatterSound-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		736168E6150930BA00C7A36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ScatterSound/ScatterSound.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScatterSound/ScatterSound-Prefix.pch";
+				INFOPLIST_FILE = "ScatterSound/ScatterSound-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		736168C0150930B900C7A36F /* Build configuration list for PBXProject "ScatterSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736168E2150930BA00C7A36F /* Debug */,
+				736168E3150930BA00C7A36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		736168E4150930BA00C7A36F /* Build configuration list for PBXNativeTarget "ScatterSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736168E5150930BA00C7A36F /* Debug */,
+				736168E6150930BA00C7A36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 736168BD150930B900C7A36F /* Project object */;
+}
