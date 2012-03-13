@@ -9,18 +9,22 @@ For example, when given the sound clip "Sosumi.aiff", the minimum interval 00:00
 
 ##Credits##
 Concept:
+
 > Patrick Kelley
 
 Engineering:
+
 > Patrick Perini
 > Jim Cervone
 
 Human Interface Design:
+
 > Patrick Perini
 > Jim Cervone
 > Patrick Kelley
 
 Graphic Design:
+
 > Ben Sanders
 > Patrick Perini
 
