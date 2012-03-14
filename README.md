@@ -11,6 +11,10 @@ For example, when given the sound clip "Sosumi.aiff", the minimum interval 00:00
 
 This behavior is often desired to "stress-test" new sounds, offering a variance between sparsity and frequency. The driving factor behind the development of ScatterSound was to test a new alert sound to make sure that it was noticable but not irritating.
 
+##Compiled App##
+The Disk Image for the compiled ScatterSound.app file can be found [here](https://github.com/downloads/inspyretech/ScatterSound/ScatterSound.dmg).
+The app supports 64-bit machines running OS X 10.7 or later, and may be compatible with OS X 10.5 - 10.6. The app is sandboxed, and signed with Inspyre Technologies [Developer ID](http://www.apple.com/macosx/mountain-lion/security.html).
+
 ##Credits##
 Concept:
 
