@@ -7,9 +7,9 @@
 
 ScatterSound is an application designed to play an audio file at user-specified, pseudorandom intervals.
 
-This behavior is often desired to "stress-test" new sounds, offering a variance between sparsity frequency. The driving factor behind the development of ScatterSound was to test a new alert sound to make sure that it was noticable, but not irritating.
-
 For example, when given the sound clip "Sosumi.aiff", the minimum interval 00:00:30, and the maximum interval 24:00:00, ScatterSound will play "Sosumi.aiff" at least once per day, but no more than once every 30 seconds.
+
+This behavior is often desired to "stress-test" new sounds, offering a variance between sparsity and frequency. The driving factor behind the development of ScatterSound was to test a new alert sound to make sure that it was noticable but not irritating.
 
 ##Credits##
 Concept:
