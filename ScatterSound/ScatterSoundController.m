@@ -110,6 +110,9 @@
     NSSound *sound = [[NSSound alloc] initWithContentsOfURL: notification.object byReference: NO];
     [sound setName: [notification.object lastPathComponent]];
     
+    NSImage *fileWellImage = sound? [[NSWorkspace sharedWorkspace] iconForFile: [notification.object path]] : [NSImage imageNamed: @"dropzone"];
+    [fileWell setImage: fileWellImage];
+    
     [self setScatterSoundWithSound: sound
                      longestPeriod: longestPeriod
                     shortestPeriod: shortestPerdiod];
@@ -138,6 +141,9 @@
                                   NSURL *fileURL = [fileOpenPanel URL];
                                   NSSound *sound = [[NSSound alloc] initWithContentsOfURL: fileURL byReference: NO];
                                   [sound setName: [fileURL lastPathComponent]];
+                                  
+                                  NSImage *fileWellImage = sound? [[NSWorkspace sharedWorkspace] iconForFile: [fileURL path]] : [NSImage imageNamed: @"dropzone"];
+                                  [fileWell setImage: fileWellImage];
                                   
                                   [self setScatterSoundWithSound: sound
                                                    longestPeriod: longestPeriod
